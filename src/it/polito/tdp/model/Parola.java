@@ -4,7 +4,6 @@ public class Parola implements Comparable <Parola>{
 	
 	private String parola;
 	
-	//lista di parole
 
 	public Parola(String parola) {
 		super();
@@ -20,7 +19,7 @@ public class Parola implements Comparable <Parola>{
 		return parola;
 	}
 	
-	public String toString(){                   //se tolgo toString stampa una roba strana
+	public String toString(){                   
 		String risultato="";
 		risultato = parola+ " \n ";
 		return risultato;

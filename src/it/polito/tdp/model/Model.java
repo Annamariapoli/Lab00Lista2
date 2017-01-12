@@ -2,12 +2,10 @@ package it.polito.tdp.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Model {
 	
-	//private Parola p;
 	Parola pp1;
 	private int flag=0;
 	
@@ -46,29 +44,29 @@ public class Model {
 		System.out.println(listaParole);
 	}
 	
-	public static void main(String [] args){
-		Model m = new Model();
-		//m.aggiungiParola( new Parola("casa"));
-		//m.aggiungiParola( new Parola("scuola"));
-		//m.aggiungiParola( new Parola("cane"));
-		//m.aggiungiParola( new Parola("pc"));
-		//m.aggiungiParola( new Parola("phone"));
-		//m.aggiungiParola( new Parola("light"));
-		//m.aggiungiParola( new Parola("home"));
-		//m.aggiungiParola( new Parola("house"));
-		
-		Parola p1 = new Parola("home");
-		Parola p2 = new Parola("home");
-		//Parola p3 = new Parola("live");
-		//Parola p4 = new Parola("roma");
-		//Parola p5 = new Parola("roma");    //questa la aggiunge
-		//m.aggiungiParola( p1);
-		m.aggiungiParola("home");
-		m.aggiungiParola("home");
-		//m.aggiungiParola(p3);
-		//m.aggiungiParola(p4);
-		//m.aggiungiParola(p5);
-		
-		m.stampaLista();
-	}
+//	public static void main(String [] args){
+//		Model m = new Model();
+//		//m.aggiungiParola( new Parola("casa"));
+//		//m.aggiungiParola( new Parola("scuola"));
+//		//m.aggiungiParola( new Parola("cane"));
+//		//m.aggiungiParola( new Parola("pc"));
+//		//m.aggiungiParola( new Parola("phone"));
+//		//m.aggiungiParola( new Parola("light"));
+//		//m.aggiungiParola( new Parola("home"));
+//		//m.aggiungiParola( new Parola("house"));
+//		
+//		Parola p1 = new Parola("home");
+//		Parola p2 = new Parola("home");
+//		//Parola p3 = new Parola("live");
+//		//Parola p4 = new Parola("roma");
+//		//Parola p5 = new Parola("roma");    //questa la aggiunge
+//		//m.aggiungiParola( p1);
+//		m.aggiungiParola("home");
+//		m.aggiungiParola("home");
+//		//m.aggiungiParola(p3);
+//		//m.aggiungiParola(p4);
+//		//m.aggiungiParola(p5);
+//		
+//		m.stampaLista();
+//	}
 }

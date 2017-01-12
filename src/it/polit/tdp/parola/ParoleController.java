@@ -14,7 +14,6 @@ import javafx.scene.control.TextField;
 public class ParoleController {
 	
 	private Model model = new Model();
-	//Parola parole
 	
 	public void setModel(Model model){
 		this.model= model;
